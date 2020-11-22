@@ -1,6 +1,5 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const markdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [
@@ -64,6 +63,14 @@ function init() {
     let fileName = "README.md";
     let markdown = `# ${data.title}\n
   ${data.description}\n
+  ## Table of Contents\n
+  1. [Licenses](#licenses)\n
+  2. [Installation](#installation)\n
+  3. [Useage](#useage)\n
+  4. [Contributions](#contribution)\n
+  5. [Test Instructions](#testInstructions)\n
+  6. [Screenshots](#screenshots)\n
+  7. [Questions + Contact Me](#questions)\n
   ## Licenses\n
   ${data.license}\n
   ## Installation\n
