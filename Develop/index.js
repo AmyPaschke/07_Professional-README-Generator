@@ -61,6 +61,32 @@ const questions = [
 function init() {
   inquirer.prompt(questions).then((data) => {
     let fileName = "README.md";
+    let licenses = [];
+    let mit =
+      "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    let cc =
+      "[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)";
+    let gnu =
+      "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+    let mozilla =
+      "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+    let isc =
+      "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+    if (data.license == "MIT") {
+      licenses.push(mit);
+    }
+    if (data.license == "CreativeCommons") {
+      licenses.push(cc);
+    }
+    if (data.license == "GNU") {
+      licenses.push(gnu);
+    }
+    if (data.license == "Mozilla") {
+      licenses.push(mozilla);
+    }
+    if (data.license == "ISC") {
+      licenses.push(isc);
+    }
     let markdown = `# ${data.title}\n
   ${data.description}\n
   ## Table of Contents\n
@@ -72,7 +98,7 @@ function init() {
   6. [Screenshots](#screenshots)\n
   7. [Questions + Contact Me](#questions)\n
   ## Licenses\n
-  ${data.license}\n
+  ${licenses}\n
   ## Installation\n
   ${data.installation}\n
   ## Useage\n
