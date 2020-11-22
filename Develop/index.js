@@ -58,19 +58,30 @@ const questions = [
   },
 ];
 
-// function to write README file
-function writeToFile(data) {
-  const fileName = "README.md";
-  generateMarkdown(data);
-  fs.writeFile(fileName, markdown(), (error) =>
-    error ? console.log(error) : console.log("Successfully created file!")
-  );
-}
-
-// function to initialize program
+// function to initialize program and create README
 function init() {
-  inquirer.prompt(questions).then(() => {
-    writeToFile();
+  inquirer.prompt(questions).then((data) => {
+    let fileName = "README.md";
+    let markdown = `# ${data.title}\n
+  ${data.description}\n
+  ## Licenses\n
+  ${data.license}\n
+  ## Installation\n
+  ${data.installation}\n
+  ## Useage\n
+  ${data.useage}\n
+  ## Contribution\n
+  ${data.contribution}\n
+  ## Test Instructions\n
+  ${data.testInstructions}\n
+  ## Screenshots\n
+  Additional images of the code and product listed below.
+  ##Questions?\n
+  My GitHub username is [${data.github}](https://www.github.com/${data.github}).\n
+  Email me at [${data.email}](mailto:${data.email}).`;
+    fs.writeFile(fileName, markdown, (error) =>
+      error ? console.log(error) : console.log("Successfully created file!")
+    );
   });
 }
 
