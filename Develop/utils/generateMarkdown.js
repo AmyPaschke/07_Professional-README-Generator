@@ -12,34 +12,11 @@ function generateMarkdown(data) {
   ${data.contribution}\n
   ## Test Instructions\n
   ${data.testInstructions}\n
+  ## Screenshots\n
+  Additional images of the code and product listed below.
   ##Questions?\n
-  My GitHub username is [${data.github}](https://www.github.com/${data.github}).
-  Email me at [${data.email}](mailto:${data.email}).
-  
-  `
-
-;
+  My GitHub username is [${data.github}](https://www.github.com/${data.github}).\n
+  Email me at [${data.email}](mailto:${data.email}).`;
 }
 
 module.exports = generateMarkdown;
-
-
-# Professional README Generator
-
-This generator utilizes node.js
-
-## Motivation
-
-New to node.js, this project tests the functionality of my node.js skills and use of the terminal.
-
-## Screenshots
-
-## Code Example
-
-## Features
-
-## License
-
-MIT License
-
-## Credits
