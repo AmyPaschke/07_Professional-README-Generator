@@ -1,49 +1,49 @@
-# a
+# Really Cool README
 
-  a
+This README is really cool
 
-  ## Table of Contents
+## Table of Contents
 
-  1. [Licenses](#licenses)
+1. [Licenses](#licenses)
 
-  2. [Installation](#installation)
+2. [Installation](#installation)
 
-  3. [Useage](#useage)
+3. [Useage](#useage)
 
-  4. [Constributions](#constribution)
+4. [Contributions](#contribution)
 
-  5. [Test Instructions](#testInstructions)
+5. [Test Instructions](#test-instructions)
 
-  6. [Screenshots](#screenshots)
+6. [Screenshots](#screenshots)
 
-  7. [Questions + Contact Me](#questions)
+7. [Questions + Contact Me](#questions)
 
-  ## Licenses
+## Licenses
 
-  MIT,CreativeCommons,GNU,Mozilla,ISC
+MIT,GNU
 
-  ## Installation
+## Installation
 
-  a
+Please install this file
 
-  ## Useage
+## Useage
 
-  a
+Please use this file
 
-  ## Contribution
+## Contribution
 
-  a
+Please contribute
 
-  ## Test Instructions
+## Test Instructions
 
-  a
+nope
 
-  ## Screenshots
+## Screenshots
 
-  Additional images of the code and product listed below.
+Additional images of the code and product listed below.
 
-  ##Questions?
+## Questions?
 
-  My GitHub username is [amy](https://www.github.com/amy).
+My GitHub username is [amypaschke](https://www.github.com/amypaschke).
 
-  Email me at [amy](mailto:amy).
+Email me at [pasch049@umn.edu](mailto:pasch049@umn.edu).

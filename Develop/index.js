@@ -68,7 +68,7 @@ function init() {
   2. [Installation](#installation)\n
   3. [Useage](#useage)\n
   4. [Contributions](#contribution)\n
-  5. [Test Instructions](#testInstructions)\n
+  5. [Test Instructions](#test-instructions)\n
   6. [Screenshots](#screenshots)\n
   7. [Questions + Contact Me](#questions)\n
   ## Licenses\n
@@ -83,7 +83,7 @@ function init() {
   ${data.testInstructions}\n
   ## Screenshots\n
   Additional images of the code and product listed below.\n
-  ##Questions?\n
+  ## Questions?\n
   My GitHub username is [${data.github}](https://www.github.com/${data.github}).\n
   Email me at [${data.email}](mailto:${data.email}).`;
     fs.writeFile(fileName, markdown, (error) =>
