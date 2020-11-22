@@ -1,6 +1,6 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
-const questions = require("inquirer");
+const markdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [
@@ -39,12 +39,11 @@ const questions = [
     message: "Please select which licenses to apply:",
     name: "license",
     choices: [
-      {
-        name: "MIT",
-        name: "CreativeCommons",
-        name: "GNU",
-        name: "Mozilla",
-      },
+      { name: "MIT" },
+      { name: "CreativeCommons" },
+      { name: "GNU" },
+      { name: "Mozilla" },
+      { name: "ISC" },
     ],
   },
   {
@@ -60,9 +59,12 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
+function writeToFile(data) {
   const fileName = "README.md";
-  let;
+  generateMarkdown(data);
+  fs.writeFile(fileName, markdown(), (error) =>
+    error ? console.log(error) : console.log("Successfully created file!")
+  );
 }
 
 // function to initialize program
