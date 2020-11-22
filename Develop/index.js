@@ -75,7 +75,7 @@ function init() {
   ## Test Instructions\n
   ${data.testInstructions}\n
   ## Screenshots\n
-  Additional images of the code and product listed below.
+  Additional images of the code and product listed below.\n
   ##Questions?\n
   My GitHub username is [${data.github}](https://www.github.com/${data.github}).\n
   Email me at [${data.email}](mailto:${data.email}).`;
