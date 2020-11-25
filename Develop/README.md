@@ -1,6 +1,6 @@
-# Amy
+# Cool
 
-  no
+  No
 
   ## Table of Contents
 
@@ -20,23 +20,23 @@
 
   ## Licenses
 
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Installation
 
-  nbo
+  No
 
   ## Useage
 
-  bo
+  No
 
   ## Contribution
 
-  a
+  nope
 
   ## Test Instructions
 
-  bo
+  no
 
   ## Screenshots
 
