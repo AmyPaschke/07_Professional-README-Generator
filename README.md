@@ -1,49 +1,19 @@
-# Very Cool Project
+# Professional README Generator
 
-  This is a very cool project that I am doing!
+This generator utilizes node.js
 
-  ## Table of Contents
+## Motivation
 
-  1. [Licenses](#licenses)
+New to node.js, this project tests the functionality of my node.js skills and use of the terminal.
 
-  2. [Installation](#installation)
+## Screenshots
 
-  3. [Useage](#useage)
+## Code Example
 
-  4. [Contributions](#contribution)
+## Features
 
-  5. [Test Instructions](#test-instructions)
+## License
 
-  6. [Screenshots](#screenshots)
+MIT License
 
-  7. [Questions + Contact Me](#questions)
-
-  ## Licenses
-
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
-
-  ## Installation
-
-  There are none, smile. Please install safely.
-
-  ## Useage
-
-  Use this with care, please.
-
-  ## Contribution
-
-  No, have fun
-
-  ## Test Instructions
-
-  Nope
-
-  ## Screenshots
-
-  Additional images of the code and product listed below.
-
-  ## Questions?
-
-  My GitHub username is [AmyPaschke](https://www.github.com/AmyPaschke).
-
-  Email me at [pasch049@umn.edu](mailto:pasch049@umn.edu).
+## Credits
