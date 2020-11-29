@@ -1,6 +1,6 @@
 # Professional README Generator
 
-This generator utilizes node.js
+This generator utilizes node.js to create a README.md file
 
 ## Motivation
 
